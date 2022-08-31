@@ -1,0 +1,63 @@
+<ul class="components">
+  <% data.each do |item| %>
+    <li class="panel">
+      <h3><%= item['component'] %></h3>
+      <% if item['component'] == 'SectionIntro' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Header</td>
+            <td><%= item['props']['header'] %></td>
+          </tr>
+          <tr>
+            <td>Background Image</td>
+            <td><img src="https://2036.emory.edu/images/<%= item['props']['background_image'] %>" alt="" class="meta-image"></td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td><%= item['props']['text'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Image</td>
+            <td><img src="https://2036.emory.edu/images/<%= item['props']['img_src'] %>" alt="" class="meta-image"></td>
+          </tr>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Link</td>
+            <td><a href="<%= item['props']['media_src'] %>" target="_blank">Click here</a></td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'Quote' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Description</td>
+            <td><%= item['props']['text'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Attribution</td>
+            <td><%= item['props']['attribution'].html_safe %></td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'TextBg' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Description</td>
+            <td><%= item['props']['text'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Image</td>
+            <td><img src="https://2036.emory.edu/images/<%= item['props']['image_src'] %>" alt="" class="meta-image"></td>
+          </tr>
+          <tr>
+            <td><%= item['props']['cta_text'] %></td>
+            <td><a href="<%= item['props']['cta_link'] %>" target="_blank">Click here</a></td>
+          </tr>
+        </table>
+      </div>
+      <% end %>
+    </li>
+  <% end %>
+</ul>

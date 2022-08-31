@@ -1,0 +1,160 @@
+{
+  "id": "home-2036",
+  "type": "collection",
+  "page_props": {
+    "header": "THE FUTURE STARTS HERE",
+    "header_expanded": "Building on Emory’s commitment to serve humanity.",
+    "text": "",
+    "about": "ABOUT THE CAMPAIGN",
+    "button_scroll": "Scroll to explore",
+    "about_before_scroll": "ABOUT THE CAMPAIGN",
+    "img_src": "about_lede.jpg",
+    "video_src": "videos/intro_video_v03.mp4",
+    "video_webm_src": "videos/intro_video_v03.webm",
+    "video_vtt": "videos/intro_video_v03.vtt",
+    "video_vtt_lang": "en",
+    "video_poster": "videos/poster.jpg",
+    "text_play": "Begin\r\nyour\r\nexperience",
+    "text_skip": "Skip video",
+    "footer": {
+      "cta_support_button": {
+        "text": "Support Emory",
+        "url": "https://together.emory.edu/give"
+      }
+    }
+  },
+  "path": "",
+  "metatag": {
+    "title": "Emory 2036 - About the Campaign",
+    "description": "",
+    "image": "og_image.jpg",
+    "og_description": "The future starts here"
+  },
+  "list": [
+    "home-2036",
+    "goizueta-business-school",
+    "emory-college-of-arts-and-sciences",
+    "laney-graduate-school",
+    "school-of-law",
+    "school-of-medicine",
+    "nell-hodgson-woodruff-school-of-nursing",
+    "oxford-college",
+    "rollins-school-of-public-health",
+    "candler-school-of-theology",
+    "campus-life",
+    "carlos-museum",
+    "center-for-ethics",
+    "global-health-institute",
+    "emory-healthcare",
+    "university-libraries",
+    "emory-national-primate-research-center",
+    "winship-cancer-institute",
+    "the-podcast",
+    "the-podium",
+    "signature-themes",
+    "research-excellence",
+    "faculty-eminence",
+    "student-flourishing"
+  ],
+  "components": [
+    {
+      "component": "SectionIntro",
+      "props": {
+        "header": "2O36 inspires investment in people for the benefit of people, bringing the Emory community together to build on our mission to serve humanity through knowledge.",
+        "background_image": "about_isolated_bg.png",
+        "text": "<p>It’s our vision that Emory will transform the world to come—contributing to boundary-pushing advancements that will spark change, inspire wonder, and catalyze action.</p><p>With an eye on Emory’s bicentennial, 2O36 will spearhead a movement to shape the future, providing access to transformative and experiential learning environments with world-renowned faculty and groundbreaking research opportunities.</p><p>As a community, we have a duty to purposefully prepare students for careers with the potential to change hearts, minds, and through that, the world.</p><p>Together, we can bring to life an ever promising future.</p>",
+        "img_src": "about_intro.jpg",
+        "media_src": "https://vimeo.com/636508070/3b66fe1932",
+        "media_alt": "Video of Emory University",
+        "media_type": "video",
+        "media_header": "2O36",
+        "media_text": "Emory University"
+      }
+    },
+    {
+      "component": "Quote",
+      "props": {
+        "text": "When there is an important issue, a tough question, I want them to think, “I wonder what’s going on at Emory? I wonder how they’re solving this? I wonder what research is addressing this question?”",
+        "attribution": "—Gregory L. Fenves, President, Emory University"
+      }
+    },
+    {
+      "component": "TextBg",
+      "props": {
+        "text": "2O36 CORE AREAS FOR EMORY",
+        "image_src": "about_divider_bg.jpg",
+        "cta_link": "https://together.emory.edu/give",
+        "cta_text": "Support Emory"
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Learn More About",
+        "title": "Core Areas",
+        "body": "<p>2O36 is about more than moving the needle in conversations; it’s about working toward radical changes for the good of humanity. Our vision for a better tomorrow starts with investing in three core areas: ensuring our students flourish, attracting and retaining eminent faculty, and championing influential research.</p>",
+        "tags": [],
+        "layout": "right",
+        "img_src": "about_core_1.jpg",
+        "media_src": "https://vimeo.com/640010045/701aaa40cd",
+        "media_alt": "Core Areas Video",
+        "media_type": "video",
+        "media_header": "Core Areas of 2O36"
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Core Area",
+        "title": "Student Flourishing",
+        "body": "<p>Our students are our future. Their Emory education and experiences prepare them for a lifelong journey of impact, contribution, and service. In this context, supporting student flourishing means helping them learn to be thinkers and doers, define values, strengthen ethics, develop skills, learn about teamwork, and prepare them for successful careers and a well-led life. It also means creating an inclusive environment so that our diverse student body has a home at Emory. The flourishing of our students at Emory empowers them to contribute to the world around them in valuable and enriching ways. Emory’s top priority is helping students realize their potential, building a muscle for reflection and the seeking of meaning, and enabling the citizens of the future to lead purposefully.</p>",
+        "read_more": "student-flourishing",
+        "tags": [],
+        "layout": "left",
+        "img_src": "about_priority_1.jpg",
+        "media_src": "about_priority_1_popup.jpg",
+        "media_alt": "Three students walk across the Quad.",
+        "media_type": "image",
+        "media_header": "Student Flourishing",
+        "media_text": "Our students are our future. Their Emory education and experiences prepare them for a lifelong journey of impact, contribution, and service.",
+        "media_byline": ""
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Core Area",
+        "title": "Faculty Eminence",
+        "body": "<p>Faculty are the heart of Emory University. Everything we accomplish—from world-changing research and artistic expression, to the outstanding liberal arts education that has long defined our university—is powered by our professors. As we look to the future, we need to recruit and retain the most talented and accomplished faculty in the world, an integral component to the diverse and inclusive Emory community. That means National Academy members, but also extraordinary early- and mid-career faculty who are poised to make pioneering discoveries and transform their disciplines. After all, the diversity of our faculty is a strength for our university, as they contribute to our eminence today and in the future.</p>",
+        "read_more": "faculty-eminence",
+        "tags": [],
+        "layout": "right",
+        "img_src": "about_priority_2.jpg",
+        "media_src": "about_priority_2_popup.jpg",
+        "media_alt": "A professor stands in front of a data projection.",
+        "media_type": "image",
+        "media_header": "Faculty Eminence",
+        "media_text": "Faculty are the heart of Emory University. Everything we accomplish—from world-changing research and artistic expression, to the outstanding liberal arts education that has long defined our university—is powered by our professors.",
+        "media_byline": "Featured: Dr. Yang Liu,  Chair and Gangarosa Distinguished Professor in the Gangarosa Department of Environment Health, Rollins School of Public Health"
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Core Area",
+        "title": "Research Excellence",
+        "body": "<p>In its 185-year history, Emory has grown from a small liberal arts university into a globally recognized research powerhouse. The past four decades have been stunning, and we’re responding to the need to accelerate research excellence and impact. The COVID-19 crisis has propelled our faculty into the spotlight like never before, and they have risen to the occasion—helping to develop and test the Moderna vaccine while preparing solutions for future pandemics. Over the past year, we have set records for research funding. This is the time to launch the next era of Emory excellence in research and discovery to answer the most pressing questions and address the crucial needs of our nation and our communities. This is Emory’s chance to shape the future.</p><p>Research in the humanities, social sciences, law, and theology is uncovering what we need to advance social and racial justice. Scientists and biomedical researchers across the university and Emory Healthcare are working toward eliminating cancer and afflictions of the brain. And we’re modeling into the future to understand how artificial intelligence can better serve humanity in the many ways it will be used.</p>",
+        "read_more": "research-excellence",
+        "tags": [],
+        "layout": "left",
+        "img_src": "about_priority_3.jpg",
+        "media_src": "about_priority_3_popup.jpg",
+        "media_alt": "A student looks at a specimen in the lab with their professor.",
+        "media_type": "image",
+        "media_header": "Research Excellence",
+        "media_text": "In its 185-year history, Emory has grown from a small liberal arts university into a globally recognized research powerhouse.",
+        "media_byline": "Featured: Biomedical researchers Dr. Keira Davis and Dr. Winfield Sale, Professor and Deputy Chair in the Department of Cell Biology, Emory University School of Medicine"
+      }
+    }
+  ]
+}

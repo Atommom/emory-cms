@@ -1,0 +1,177 @@
+{
+  "id": "candler-school-of-theology",
+  "type": "collection",
+  "page_props": {
+    "about": "school spotlight",
+    "header": "CANDLER SCHOOL<br>OF THEOLOGY",
+    "text": "Preparing real people to make a real difference in the real world.",
+    "button_scroll": "Scroll to explore",
+    "img_src": "candler_lede.jpg",
+    "footer": {
+      "cta_support_button": {
+        "text": "Support Candler",
+        "url": "https://together.emory.edu/give/to/schools-and-colleges/candler-school-theology"
+      },
+      "cta_contact_info": {
+        "heading": "Learn more about ways to support 2O36.",
+        "person": "Bill Doerr",
+        "title": "Assistant Dean, Advancement and Alumni Engagement ",
+        "email": "bill.doerr@emory.edu",
+        "telephone": "404-727-8882"
+      }
+    }
+  },
+  "path": "candler-school-of-theology",
+  "metatag": {
+    "title": "Candler School of Theology - Emory 2036",
+    "description": "",
+    "image": "og_image.jpg"
+  },
+  "components": [
+    {
+      "component": "SectionIntro",
+      "props": {
+        "header": "Even as the world continues its rapid pace of change, religion and theology endure as powerful influences in society, and humans still long for a connection to something bigger than themselves.",
+        "background_image": "candler_isolated_bg.png",
+        "text": "<p>Since our founding in 1914, Candler has remained true to our mission to educate faithful and creative leaders for the church’s ministries throughout the world. We live into that mission every day, producing field-defining scholarship, shaping students who put God’s love into action in countless ways, and driving positive transformation in the church and the world.</p>",
+        "img_src": "candler_intro.jpg",
+        "media_src": "https://vimeo.com/620160994/a45a0f5f17",
+        "media_alt": "Two students perform ceremony.",
+        "media_type": "video",
+        "media_header": "Candler School of Theology",
+        "media_text": ""
+      }
+    },
+    {
+      "component": "Quote",
+      "props": {
+        "text": "Candler shapes Christian leaders dedicated to building strong, vibrant, resilient communities that promote the flourishing of all.",
+        "attribution": "— Jan Love, Mary Lee Hardin Willard Dean and Professor of Christianity and World Politics"
+      }
+    },
+    {
+      "component": "TextBg",
+      "props": {
+        "text": "2O36 PRIORITIES FOR CANDLER SCHOOL OF THEOLOGY",
+        "image_src": "candler_divider_bg.jpg",
+        "cta_link": "https://together.emory.edu/give/to/schools-and-colleges/candler-school-theology",
+        "cta_text": "Support Candler"
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Key Priority",
+        "title": "In 2O36, Scholarships Abound",
+        "body": "<p>Candler’s impact in the world depends on the remarkable ministries and inspired leadership of our students and graduates, called by God from all walks of life and all economic spheres. In 2036, the cost of a Candler education isn’t an obstacle for them, because generous scholarships abound.</p><p>Currently, all master of divinity students at Candler receive financial support of at least 50 percent of tuition, with an average tuition discount of 78 percent. <strong>By supporting 2O36, you will help us reach our ultimate goal of making the master of divinity program tuition-free, removing financial hurdles for students and the burden of debt for graduates.</strong> Achieving this milestone will allow us to attract the best students, regardless of their financial circumstances, so that they may go on to serve wherever God leads, whether a small rural church or an international nonprofit.</p>",
+        "layout": "right",
+        "img_src": "candler_priority_1.jpg",
+        "media_src": "candler_priority_1_popup.jpg",
+        "media_alt": "Candler student studies.",
+        "media_type": "image",
+        "media_header": "Scholarship is Free",
+        "media_text": "By supporting 2O36, you will help us reach our ultimate goal of making the master of divinity program tuition-free for all students."
+      }
+    },
+    {
+      "component": "ColumnsText",
+      "props": {
+        "column1": "",
+        "column2": ""
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Key Priority",
+        "title": "Recruit and Retain Top Talent",
+        "body": "<p>Candler’s outstanding international reputation rests on the shoulders of our faculty. Across time, they have fostered an environment unique in theological education—one that values scholarship, teaching and serving the church in equal measure. They lead their fields in scholarly productivity and mentor students to maximize their gifts, laying the groundwork for communities and churches to thrive.</p><p>The caliber of our biblical studies faculty has always been a mark of distinction for Candler, but unlike other prominent institutions, we currently don’t have an endowed faculty position in biblical studies. <strong>A generous gift to 2O36 will allow us to create a named chair of biblical studies to ensure Candler remains a top destination for world-renowned scholars.</strong></p>",
+        "layout": "right",
+        "img_src": "candler_priority_2.jpg",
+        "media_src": "candler_priority_2_popup_v2.jpg",
+        "media_alt": "Candler faculty in worship",
+        "media_type": "image",
+        "media_header": "Recruit and Retain Top Talent",
+        "media_text": "A generous gift to 2O36 will allow us to create a named chair of biblical studies to ensure Candler remains a top destination for world-renowned scholars."
+      }
+    },
+    {
+      "component": "VideoQuote",
+      "props": {
+        "pretitle": "A MESSAGE FROM",
+        "title": "Kevin Murriel 11T",
+        "layout": "left",
+        "subtitle": "Assistant Professor in the Practice of Practical Theology and Black Methodist Seminarians Program Director",
+        "img_src": "candler_quote_1.jpg",
+        "media_src": "https://vimeo.com/618217392/69b2d04874",
+        "media_alt": "A video quote of Kevin Murriel 11T",
+        "media_header": "Kevin Murriel 11T",
+        "media_text": "Assistant Professor in the Practice of Practical Theology and Black Methodist Seminarians Program Director",
+        "button_close_text": "Exit"
+      }
+    },
+    {
+      "component": "TextImageHeader",
+      "props": {
+        "pretitle": "Key Priority",
+        "title": "In 2036, Experiential Learning Drives Change",
+        "body": "<p>From their first day in the program, our master of divinity students engage in hands-on learning and faculty-led reflection that deepen their understanding and sharpen their vocational discernment. In year one, they work with organizations that deliver social services, such as homeless shelters, prisons, hospitals, refugee centers, and ministries serving people with disabilities. In year two, they serve in ecclesial settings alongside a seasoned leader. Time and again, students point to Candler’s Contextual Education program as a highlight of their education.</p><p>We envision expanding our Contextual Education offerings with a named endowment that will allow students to pursue additional Con Ed experiences anywhere in the world while continuing their coursework through remote learning. <strong>Investments in this program will allow Candler to enhance our technology and support students by providing stipends, travel funding, and more.</strong> Creating more opportunities for contextual learning will shape leaders with deep understanding who can drive meaningful change.</p>",
+        "layout": "right",
+        "img_src": "candler_priority_3.jpg",
+        "media_src": "candler_priority_3_popup_v2.jpg",
+        "media_alt": "Candler student serving a congregation.",
+        "media_type": "image",
+        "media_header": "Contextual Education",
+        "media_text": "We envision expanding our Contextual Education offerings with a named endowment that will allow students to pursue additional Con Ed experiences anywhere in the world while continuing their coursework through remote learning."
+      }
+    },
+    {
+      "component": "VideoQuote",
+      "props": {
+        "pretitle": "A MESSAGE FROM",
+        "title": "Karen Webster Parks 16T",
+        "layout": "left",
+        "subtitle": "",
+        "img_src": "candler_quote_2.jpg",
+        "media_src": "https://vimeo.com/619046479/dcb99727be",
+        "media_alt": "A video quote of Karen Webster Parks 16T",
+        "media_header": "Karen Webster Parks 16T",
+        "media_text": "",
+        "button_close_text": "Exit"
+      }
+    },
+    {
+      "component": "AccordionComponent",
+      "props": {
+        "pretitle": "CANDLER SCHOOL OF THEOLOGY",
+        "title": "KEY PRIORITIES",
+        "items": [
+          {
+            "title": "Moral Leaders Inspire Dialogue",
+            "description": "<p>The Laney Program in Moral Leadership promotes the development of leaders who work with integrity for the common good. Coursework focuses on the principles and practices of moral leadership, workshops guide students to develop practical skills for public leadership, and international travel seminars provide opportunities to interact with moral leaders in diverse contexts. The program also sponsors public events featuring distinguished guest speakers who address issues in contemporary life through the lens of moral leadership.</p><p><strong>Thanks to your support of 2O36, additional investments in this program will allow for programming that reaches more students and the greater community.</strong> An expanded program would broaden the understanding of moral leadership among the general public and challenge more students to embrace and extend the concept in various contexts and cultures in the United States and around the world."
+          },
+          {
+            "title": "Reach Wider Audiences",
+            "description": "<p>For centuries, the seminary has been the primary place for formal theological education. But if we expand our concept of the purpose of theological education to consider it a component of Christian discipleship, perhaps there should be something between Sunday school and seminary. We know that far more people are interested in deep theological learning than the number who enroll in degree programs, or even the number who consider themselves “religious.” In today’s global, digitally connected world, Candler envisions making theological education accessible to more people in more formats, more places, and in response to more motivations.</p><p><strong>With your support for 2O36, we can build our capacity for public theological education, using not only technology, but strong partnerships with churches and community organizations to ensure our offerings address their needs.</strong> This new, comprehensive model of theological education for degree and nondegree students will enhance our ability to serve a wide variety of populations, including those who identify as spiritual but not religious.</p>"
+          },
+          {
+            "title": "In 2036, The Past Still Teaches",
+            "description": "<p>Pitts Theology Library is among the premier theological libraries in the world. It’s a place of study and reflection for all scholars, regardless of their faith, with special collections shared broadly through several means, most recently through an extensive program to digitize resources.</p><p>Pitts relies on philanthropic support to acquire, preserve, interpret, and provide access to original materials. <strong>Funding for the library through 2O36 will make Pitts an even more useful resource for scholarship and research</strong> by allowing us to increase the digitization of materials and rare books, and expand holdings related to Methodism in England and America, hymnody, and religion in America from the 16th through 19th centuries.</p>"
+          },
+          {
+            "title": "Connect Across Differences",
+            "description": "<p>Growing religious diversity in the United States makes interfaith understanding and engagement across religious traditions critical for the well-being of our communities. Candler is at the forefront of curricular innovations in interfaith relations, and faculty specializing in this work guide the school’s largely Christian student body in discovering how their own faith is enriched by learning from other traditions. <strong>With the support of 2O36, we can endow and name a professorship in interfaith understanding and engagement to anchor this work,</strong> cultivating Christian leaders who know how to form rich relationships and strong communities with those from different faith traditions.</p>"
+          },
+          {
+            "title": "Ecumenical Openness",
+            "description": "<p>Candler is shaped by the Wesleyan commitment to ecumenical openness and welcomes students from over forty denominations. In recent years, Candler’s Episcopal and Anglican Studies Program has grown significantly, with a five-fold increase in the number of students, the addition of two junior faculty, and the establishment of two intentional living/formation communities. As interest continues to grow, we must ensure that students in the program have access to top scholars from their field. <strong>With the help of 2O36, we can continue our leadership in scholarship and teaching by adding a named endowed chair for Episcopal and Anglican studies to guide the work in this growing area.</strong></p>"
+          },
+          {
+            "title": "Opportunities to Reach Hearts and Minds",
+            "description": "<p><p>As new challenges and priorities arise and technology advances, versatile funding is vital for Candler to remain a destination of choice for students and faculty alike. That’s why the Fund for Excellence and budget-relieving annual gifts are important to Candler, forming a broad base of support to enhance the educational experience. <strong>Supporting 2O36 with an unrestricted annual gift allows Dean Jan Love and Candler leaders to respond quickly as needs shift, expand financial aid for deserving students, and create opportunities for dynamic engagement and worship.</strong></p>"
+          }
+        ]
+      }
+    }
+  ]
+}
