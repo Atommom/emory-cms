@@ -10,8 +10,8 @@ class CreatePages < ActiveRecord::Migration[6.1]
       t.string :meta_title, null: false, default: ""
       t.text :meta_desc
       t.string :meta_img
-      t.jsonb :footer, null: false, default: "{}"
-      t.jsonb :components, null: false, default: "{}"
+      t.jsonb :footer, null: false, default: {}
+      t.jsonb :components, null: false, default: {}
 
       t.timestamps
     end

@@ -7,7 +7,7 @@
         <table>
           <tr>
             <td>Header</td>
-            <td><%= item['props']['header'] %></td>
+            <td><%= item['props']['header'].html_safe %></td>
           </tr>
           <tr>
             <td>Background Image</td>
@@ -24,6 +24,20 @@
           <tr>
             <td><%= item['props']['media_type'].capitalize %> Link</td>
             <td><a href="<%= item['props']['media_src'] %>" target="_blank">Click here</a></td>
+          </tr>
+          <% if item['props']['media_type'] == "image" %>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Alt</td>
+            <td><%= item['props']['media_alt'] %></td>
+          </tr>
+          <% end %>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Header</td>
+            <td><%= item['props']['media_header'] %></td>
+          </tr>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Text</td>
+            <td><%= item['props']['media_text'] %></td>
           </tr>
         </table>
       </div>
@@ -54,6 +68,81 @@
           <tr>
             <td><%= item['props']['cta_text'] %></td>
             <td><a href="<%= item['props']['cta_link'] %>" target="_blank">Click here</a></td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'TextImageHeader' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Subtitle</td>
+            <td><%= item['props']['pretitle'] %></td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td><%= item['props']['title'] %></td>
+          </tr>
+          <tr>
+            <td>Body</td>
+            <td><%= item['props']['body'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Position</td>
+            <td><%= item['props']['layout'].capitalize %></td>
+          </tr>
+          <% if item['props']['tags'] != nil %>
+          <tr>
+            <td>Tags</td>
+            <td>
+              <% item['props']['tags'].each do |tag| %>
+              <a class="tag" href="https://2036.emory.edu<%= tag['url'] %>" target="_blank"><%= tag['label'] %></a>
+              <% end %>
+            </td>
+          </tr>
+          <% end %>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Link</td>
+            <td><a href="<%= item['props']['media_src'].start_with?('http') ? item['props']['media_src'] : "https://2036.emory.edu#{item['props']['media_type'] == "image" ? "/images/" : ""}#{item['props']['media_src']}" %>" target="_blank">Click here</a></td>
+          </tr>
+          <% if item['props']['links'] != nil %>
+          <tr>
+            <td>Additional Links</td>
+            <td>
+              <% item['props']['links'].each do |link| %>
+              <a class="additional-link" href="<%= link['url'] %>" target="_blank">
+                <img src="https://2036.emory.edu/<%= link['icon'] %>">
+              </a>
+              <% end %>
+            </td>
+          </tr>
+          <% end %>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Header</td>
+            <td><%= item['props']['media_header'] %></td>
+          </tr>
+          <% if item['props']['media_type'] == "image" %>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Alt</td>
+            <td><%= item['props']['media_alt'] %></td>
+          </tr>
+          <% end %>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Header</td>
+            <td><%= item['props']['media_header'] %></td>
+          </tr>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> Text</td>
+            <td><%= item['props']['media_text'] %></td>
+          </tr>
+          <tr>
+            <td><%= item['props']['media_type'].capitalize %> ByLine</td>
+            <td><%= (item['props']['media_byline'] || "").html_safe %></td>
+          </tr>
+          <tr>
+            <td>Status</td>
+            <td>
+              <span class="badge"><%= item['props']['disabled'] ? "Inactive" : "Active" %></span>
+            </td>
           </tr>
         </table>
       </div>

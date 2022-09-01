@@ -51,8 +51,8 @@ ActiveRecord::Schema.define(version: 2022_08_24_083538) do
     t.string "meta_title", default: "", null: false
     t.text "meta_desc"
     t.string "meta_img"
-    t.jsonb "footer", default: "{}", null: false
-    t.jsonb "components", default: "{}", null: false
+    t.jsonb "footer", default: {}, null: false
+    t.jsonb "components", default: {}, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["slug"], name: "index_pages_on_slug", unique: true

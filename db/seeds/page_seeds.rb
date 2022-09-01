@@ -15,7 +15,7 @@ def import_pages
         meta_title: pageInfo['metatag']['title'],
         meta_desc: pageInfo['metatag']['description'],
         meta_img: pageInfo['metatag']['image'],
-        footer: pageInfo['footer'] || {},
+        footer: pageInfo['page_props']['footer'] || {},
         components: pageInfo['components']
       })
     end

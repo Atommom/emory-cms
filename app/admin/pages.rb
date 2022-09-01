@@ -39,19 +39,25 @@ ActiveAdmin.register Page do
     attributes_table do
       row :slug
       row :meta_title
-      row "Meta Description", :meta_desc
-      row("Meta Image") do |item|
+      row "Meta Description" do |item|
+        item.meta_desc
+      end
+      row "Meta Image" do |item|
         image_tag "https://2036.emory.edu/images/#{item.meta_img}", class: 'meta-image-detail'
       end
-      row("Title") do |item|
+      row "Title" do |item|
         item.header_title.html_safe
       end
-      row "Description", :header_desc
-      row "About", :header_about
-      row("Featured Image") do |item|
+      row "Description" do |item|
+        item.header_desc
+      end
+      row "About" do |item|
+        item.header_about
+      end
+      row "Featured Image" do |item|
         image_tag "https://2036.emory.edu/images/#{item.featured_img}", class: 'meta-image-detail'
       end
-      row("Components") do |item|
+      row "Components" do |item|
         render('components', :data => item.components)
       end
     end
