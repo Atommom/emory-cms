@@ -75,7 +75,7 @@
       <div class="panel_contents">
         <table>
           <tr>
-            <td>Subtitle</td>
+            <td>Pretitle</td>
             <td><%= item['props']['pretitle'] %></td>
           </tr>
           <tr>
@@ -143,6 +143,117 @@
             <td>
               <span class="badge"><%= item['props']['disabled'] ? "Inactive" : "Active" %></span>
             </td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'VideoQuote' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Pretitle</td>
+            <td><%= item['props']['pretitle'] %></td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td><%= item['props']['title'] %></td>
+          </tr>
+          <tr>
+            <td>Position</td>
+            <td><%= item['props']['layout'] %></td>
+          </tr>
+          <tr>
+            <td>Subtitle</td>
+            <td><%= item['props']['subtitle'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Image</td>
+            <td><img src="https://2036.emory.edu/images/<%= item['props']['img_src'] %>" alt="" class="meta-image"></td>
+          </tr>
+          <tr>
+            <td>Media Link</td>
+            <td><a href="<%= item['props']['media_src'] %>" target="_blank">Click here</a></td>
+          </tr>
+          <tr>
+            <td>Media Alt</td>
+            <td><%= item['props']['media_alt'] %></td>
+          </tr>
+          <tr>
+            <td>Media Header</td>
+            <td><%= item['props']['media_header'] %></td>
+          </tr>
+          <tr>
+            <td>Media Description</td>
+            <td><%= item['props']['media_text'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Button Close Text</td>
+            <td><%= item['props']['button_close_text'] %></td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'AccordionComponent' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Title</td>
+            <td><%= item['props']['title'] %></td>
+          </tr>
+          <tr>
+            <td>Pretitle</td>
+            <td><%= item['props']['pretitle'] %></td>
+          </tr>
+          <tr>
+            <td>Items</td>
+            <td>
+              <ul class="numeric-list">
+                <% for it in item['props']['items'] %>
+                <li>
+                  <h4><%= it['title'] %></h4>
+                  <p><%= it['description'].html_safe %></p>
+                </li>
+                <% end %>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'ProfileGrid' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Header</td>
+            <td><%= item['props']['header'] %></td>
+          </tr>
+          <tr>
+            <td>Size</td>
+            <td><%= (item['props']['size'] || '').capitalize %></td>
+          </tr>
+          <tr>
+            <td>Items</td>
+            <td>
+              <div class="profile-grid">
+                <% for it in item['props']['items'] %>
+                <div>
+                  <img src="https://2036.emory.edu/images/<%= it['img_src'] %>" alt="<%= it['media_alt'] %>">
+                  <h4><%= it['name'] %></h4>
+                  <p><%= it['description'] %></p>
+                </div>
+                <% end %>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <% elsif item['component'] == 'ColumnsText' %>
+      <div class="panel_contents">
+        <table>
+          <tr>
+            <td>Column 1</td>
+            <td><%= item['props']['column1'].html_safe %></td>
+          </tr>
+          <tr>
+            <td>Column 2</td>
+            <td><%= item['props']['column2'].html_safe %></td>
           </tr>
         </table>
       </div>
