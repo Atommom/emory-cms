@@ -1,0 +1,30 @@
+<div class="panel">
+  <h3>Support</h3>
+  <div class="panel_contents">
+    <% if data['cta_support_button'] %>
+    <a href="<%= data['cta_support_button']['url'] %>" target="_blank">
+      <%= data['cta_support_button']['text'] %>
+    </a>
+    <% else %>
+    None
+    <% end %>
+  </div>
+</div>
+<div class="panel">
+  <h3>Contact Info</h3>
+  <div class="panel_contents">
+    <% if data['cta_contact_info'] %>
+      <% if data['cta_contact_info']['raw_block'] %>
+        <%= data['cta_contact_info']['raw_block'].html_safe %>
+      <% else %>
+        <%= data['cta_contact_info']['heading'] %><br>
+        <%= data['cta_contact_info']['person'] %><br>
+        <%= data['cta_contact_info']['title'] %><br>
+        <%= data['cta_contact_info']['email'] %><br>
+        <%= data['cta_contact_info']['telephone'] %>
+      <% end %>
+    <% else %>
+    None
+    <% end %>
+  </div>
+</div>

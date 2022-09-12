@@ -48,3 +48,9 @@ gem 'activeadmin'
 gem 'activeadmin_addons'
 
 gem "json", "~> 2.6"
+
+gem "webpacker", "~> 5.4"
+
+gem "activeadmin_quill_editor", "~> 1.0"
+
+gem "activeadmin_json_editor", "~> 0.0.10"
